@@ -52,6 +52,22 @@ function addElementWave1() {
     span.textContent = "sem ondas surfadas na area2";
   }
 }
+
+function addElementWave2() {
+  const span = document.createElement("span");
+  span.textContent = `${waves01} ondas surfadas area 1:\n`;
+  span.style.fontWeight = "bold";
+
+  document.querySelector(".wave01").appendChild(span);
+  const span2 = document.createElement("span");
+  span2.textContent = `waves and time: ${timeWave1}`;
+  span2.style.fontWeight = "normal";
+  span.appendChild(span2);
+
+  if (waves01 == null) {
+    span.textContent = "sem ondas surfadas na area2";
+  }
+}
 // const li2 = document.createElement("li");
 // li2.textContent = `${waves02} ondas surfadas area 2 ${timeWave2}`;
 // li.appendChild(li2);
