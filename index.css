@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62, 5%;
+  background-color: #c3dee9;
+
+  overflow-x: none;
+  overflow-y: hidden;
+}
+
+.header {
+  min-width: 100vw;
+  min-height: 15vh;
+  background-color: #c1936b;
+}
+.container {
+  display: block;
+  max-width: 50%;
+  max-height: 50vh;
+}
+.main {
+  max-width: 40%; /*usar 40% para p mediaquery */
+  min-height: 70vh;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.main input:first-child {
+  margin-bottom: 0.5rem;
+  color: #111111;
+}
+.main input:nth-last-child(2) {
+  margin-top: 0.5rem;
+  color: #111111;
+}
+.container_button_login {
+  margin-top: 0.5rem;
+}

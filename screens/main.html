@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hot zone_surf</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div class="timer">
+      <button
+        class="button is-dark is-rounded button_time"
+        onclick="timeBateri()"
+      >
+        Start Time
+      </button>
+
+      <a href="related.html" class="link_related">
+        <button
+          class="button is-dark is-rounded link"
+          onclick="relatedScreen()"
+        >
+          Related
+        </button></a
+      >
+
+      <h3 class="timeDisplay"></h3>
+
+      <span class="related_1"></span>
+      <span class="related_2"></span>
+      <span class="related_3"></span>
+      <span class="related_4"></span>
+    </div>
+
+    <div class="container">
+      <button
+        onclick="area01()"
+        class="container__area01 butt"
+        id="area01"
+        name="area01"
+      >
+        01
+        <span class="cliks" name="area01">0</span>
+      </button>
+      <button
+        onclick="area02()"
+        class="container__area02 butt"
+        id="area02"
+        name="area02"
+      >
+        02
+        <span class="cliks" name="area02">0</span>
+      </button>
+      <button
+        onclick="area03()"
+        class="container__area03 butt"
+        id="area03"
+        name="area03"
+      >
+        03
+        <span class="cliks" name="area03">0</span>
+      </button>
+      <button
+        onclick="area04()"
+        class="container__area04 butt"
+        id="area04"
+        name="area04"
+      >
+        <span class="cliks" name="area04">0</span>
+        04
+      </button>
+    </div>
+    <div class="beach">
+      <p class="beach__area_judge--black">judge</p>
+    </div>
+
+    <script src="../bd.js"></script>
+    <script src="../script.js"></script>
+    <script src="../related.js"></script>
+  </body>
+</html>
