@@ -23,6 +23,7 @@ function relatedScreen() {
   console.log(contClickarea01);
   addInfoScren();
   addElementWave1();
+  addElementWave2();
 }
 function addInfoScren() {
   // informações da pagina de relatorio
@@ -49,23 +50,23 @@ function addElementWave1() {
   span.appendChild(span2);
 
   if (waves01 == null) {
-    span.textContent = "sem ondas surfadas na area2";
+    span.textContent = "sem ondas surfadas na area-1";
   }
 }
 
 function addElementWave2() {
   const span = document.createElement("span");
-  span.textContent = `${waves01} ondas surfadas area 1:\n`;
+  span.textContent = `${waves02} ondas surfadas area 2:\n`;
   span.style.fontWeight = "bold";
 
-  document.querySelector(".wave01").appendChild(span);
+  document.querySelector(".wave02").appendChild(span);
   const span2 = document.createElement("span");
-  span2.textContent = `waves and time: ${timeWave1}`;
+  span2.textContent = `waves and time: ${timeWave2}`;
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
   if (waves01 == null) {
-    span.textContent = "sem ondas surfadas na area2";
+    span.textContent = "sem ondas surfadas na area-2";
   }
 }
 // const li2 = document.createElement("li");
