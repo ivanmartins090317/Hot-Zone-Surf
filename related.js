@@ -24,6 +24,8 @@ function relatedScreen() {
   addInfoScren();
   addElementWave1();
   addElementWave2();
+  addElementWave3();
+  addElementWave4();
 }
 function addInfoScren() {
   // informações da pagina de relatorio
@@ -65,8 +67,38 @@ function addElementWave2() {
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
-  if (waves01 == null) {
+  if (waves02 == null) {
     span.textContent = "sem ondas surfadas na area-2";
+  }
+}
+function addElementWave3() {
+  const span = document.createElement("span");
+  span.textContent = `${waves03} ondas surfadas area 3:\n`;
+  span.style.fontWeight = "bold";
+
+  document.querySelector(".wave03").appendChild(span);
+  const span2 = document.createElement("span");
+  span2.textContent = `waves and time: ${timeWave3}`;
+  span2.style.fontWeight = "normal";
+  span.appendChild(span2);
+
+  if (waves03 == null) {
+    span.textContent = "sem ondas surfadas na area-3";
+  }
+}
+function addElementWave4() {
+  const span = document.createElement("span");
+  span.textContent = `${waves04} ondas surfadas area 4:\n`;
+  span.style.fontWeight = "bold";
+
+  document.querySelector(".wave04").appendChild(span);
+  const span2 = document.createElement("span");
+  span2.textContent = `waves and time: ${timeWave4}`;
+  span2.style.fontWeight = "normal";
+  span.appendChild(span2);
+
+  if (waves03 == null) {
+    span.textContent = "sem ondas surfadas na area-4";
   }
 }
 // const li2 = document.createElement("li");
