@@ -6,7 +6,7 @@ body {
   font-size: 62, 5%;
   background-color: #c3dee9;
 
-  overflow-x: none;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
@@ -21,7 +21,7 @@ body {
   max-height: 50vh;
 }
 .main {
-  max-width: 40%; /*usar 40% para p mediaquery */
+  min-width: 40%; /*usar 40% para p mediaquery */
   min-height: 70vh;
   margin: 0 auto;
   margin-top: 20%;
@@ -36,4 +36,10 @@ body {
 }
 .container_button_login {
   margin-top: 0.5rem;
+}
+
+@media (min-width: 1000px) {
+  .main {
+    max-width: 40%;
+  }
 }
