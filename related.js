@@ -97,7 +97,7 @@ function addElementWave4() {
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
-  if (waves03 == null) {
+  if (waves04 == null) {
     span.textContent = "sem ondas surfadas na area-4";
   }
 }
