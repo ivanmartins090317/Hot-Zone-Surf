@@ -124,4 +124,10 @@ button.link:hover {
     margin-left: 225px;
     position: absolute;
   }
+  .related_1,
+  .related_2,
+  .related_3,
+  .related_4 {
+    display: none;
+  }
 }
