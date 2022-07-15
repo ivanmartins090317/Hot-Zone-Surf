@@ -117,12 +117,11 @@ button.link:hover {
 .cliks {
   display: none;
 }
-/* .related,
-.related1 {
-  width: 20rem;
-  height: 2rem;
-  font-family: open sans, sans-serif;
-  background-color: #af40ff;
-  border-radius: 1rem;
-  text-align: center;
-} */
+@media (min-width: 384px) {
+  .timeDisplay {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-left: 225px;
+    position: absolute;
+  }
+}
