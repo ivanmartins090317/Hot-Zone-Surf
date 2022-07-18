@@ -71,3 +71,9 @@ body {
 .wave01:first-child {
   margin-top: 1rem;
 }
+
+@media (max-width: 688px) {
+  .containerwave {
+    margin: -10rem 0 0 10%;
+  }
+}

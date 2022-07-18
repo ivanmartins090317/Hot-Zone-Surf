@@ -117,11 +117,11 @@ button.link:hover {
 .cliks {
   display: none;
 }
-@media (max-width: 384px) {
+@media (max-width: 688px) {
   .timeDisplay {
     font-family: sans-serif;
     font-size: 1.5rem;
-    margin-left: 225px;
+    margin-left: 250px;
     position: absolute;
   }
   .related_1,
