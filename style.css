@@ -119,6 +119,15 @@ button.link:hover {
 .cliks {
   display: none;
 }
+
+@media (min-width: 1000px) {
+  .timer {
+    align-items: center;
+  }
+  .timeDisplay {
+    margin-top: 0.5rem;
+  }
+}
 @media (max-width: 320px) {
   .timeDisplay {
     font-family: sans-serif;
@@ -134,13 +143,5 @@ button.link:hover {
   .related_3,
   .related_4 {
     display: none;
-  }
-}
-@media (min-width: 1000px) {
-  .timer {
-    align-items: center;
-  }
-  .timeDisplay {
-    margin-top: 0.5rem;
   }
 }

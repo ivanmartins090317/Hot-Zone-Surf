@@ -15,12 +15,6 @@ const timeWave3 = sessionStorage.getItem("timeWave3");
 const timeWave4 = sessionStorage.getItem("timeWave4");
 
 function relatedScreen() {
-  console.log("area1", timeWave1);
-  console.log("area2", timeWave2);
-  console.log("area3", timeWave3);
-  console.log("area4", timeWave4);
-
-  console.log(contClickarea01);
   addInfoScren();
   addElementWave1();
   addElementWave2();

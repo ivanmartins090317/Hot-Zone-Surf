@@ -7,6 +7,4 @@ function getValue() {
   localStorage.setItem("event_name", event);
   localStorage.setItem("heat_name", heat);
   localStorage.setItem("valueTime", time);
-
-  console.log(heat);
 }
