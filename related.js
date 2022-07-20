@@ -47,12 +47,12 @@ function addElementWave1() {
 
   document.querySelector(".wave01").appendChild(span);
   const span2 = document.createElement("span");
-  span2.textContent = `waves and time: ${timeWave1}`;
+  span2.textContent = timeWave1;
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
   if (waves01 == null) {
-    span.textContent = "sem ondas surfadas na area-1";
+    span.textContent = "Nenhuma onda surfada na area 1";
   }
 }
 
@@ -63,12 +63,12 @@ function addElementWave2() {
 
   document.querySelector(".wave02").appendChild(span);
   const span2 = document.createElement("span");
-  span2.textContent = `waves and time: ${timeWave2}`;
+  span2.textContent = timeWave2;
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
   if (waves02 == null) {
-    span.textContent = "sem ondas surfadas na area-2";
+    span.textContent = "Nenhuma onda surfada na area 2";
   }
 }
 function addElementWave3() {
@@ -78,12 +78,12 @@ function addElementWave3() {
 
   document.querySelector(".wave03").appendChild(span);
   const span2 = document.createElement("span");
-  span2.textContent = `waves and time: ${timeWave3}`;
+  span2.textContent = timeWave3;
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
   if (waves03 == null) {
-    span.textContent = "sem ondas surfadas na area-3";
+    span.textContent = "Nenhuma onda surfada na area 3";
   }
 }
 function addElementWave4() {
@@ -93,12 +93,12 @@ function addElementWave4() {
 
   document.querySelector(".wave04").appendChild(span);
   const span2 = document.createElement("span");
-  span2.textContent = `waves and time: ${timeWave4}`;
+  span2.textContent = timeWave4;
   span2.style.fontWeight = "normal";
   span.appendChild(span2);
 
   if (waves04 == null) {
-    span.textContent = "sem ondas surfadas na area-4";
+    span.textContent = "Nenhuma onda surfada na area 4";
   }
 }
 // const li2 = document.createElement("li");

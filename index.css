@@ -14,11 +14,13 @@ body {
   min-width: 100vw;
   min-height: 15vh;
   background-color: #c1936b;
+  text-align: center;
 }
+
 .container {
   display: block;
   max-width: 50%;
-  max-height: 50vh;
+  max-height: 418px;
 }
 .main {
   min-width: 40%; /*usar 40% para p mediaquery */
@@ -37,9 +39,23 @@ body {
 .container_button_login {
   margin-top: 0.5rem;
 }
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+@media (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+}
 
 @media (min-width: 1000px) {
   .main {
     max-width: 40%;
+  }
+}
+@media (max-width: 794px) {
+  body {
+    height: 100vh;
   }
 }
