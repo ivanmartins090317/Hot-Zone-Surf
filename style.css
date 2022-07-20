@@ -47,6 +47,12 @@ button.link:hover {
   min-height: 60vh;
   font-family: open sans, sans-serif;
 }
+.related_1,
+.related_2,
+.related_3,
+.related_4 {
+  display: none;
+}
 .butt {
   font-family: open sans, sans-serif;
   color: #ffffff;
