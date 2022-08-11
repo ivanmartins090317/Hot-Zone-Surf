@@ -134,6 +134,14 @@ button.link:hover {
     margin-top: 0.5rem;
   }
 }
+@media (max-width: 380px) {
+  .timeDisplay {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-left: 230px;
+    position: absolute;
+  }
+}
 @media (max-width: 320px) {
   .timeDisplay {
     font-family: sans-serif;

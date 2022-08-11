@@ -32,8 +32,17 @@ body {
   margin-bottom: 0.5rem;
   color: #111111;
 }
+input#heat.input.is-rounded {
+  margin-bottom: 0.5rem;
+}
+
+.main input:nth-last-child(1) {
+  margin-bottom: 0.5rem;
+  color: #111111;
+}
+
 .main input:nth-last-child(2) {
-  margin-top: 0.5rem;
+  margin-top: -0.1rem;
   color: #111111;
 }
 .container_button_login {
