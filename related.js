@@ -21,6 +21,12 @@ function relatedScreen() {
   addElementWave3();
   addElementWave4();
 }
+
+function deleteRelated() {
+  localStorage.clear();
+  sessionStorage.clear();
+  location.reload();
+}
 function addInfoScren() {
   // informações da pagina de relatorio
   const showEvent = document.querySelector(".event");

@@ -28,7 +28,40 @@ function timeBateri() {
   const nameEvent = localStorage.getItem("event_name");
   startTimer(duration, display_time);
 }
-function area01() {
+// function create() {
+//   let canvas = document.createElement("canvas");
+//   canvas.style.position = "absolute";
+//   const area01 = document.getElementById("area01").prepend(canvas);
+
+//   const dot = canvas.getContext("2d");
+
+//   canvas.addEventListener("click", (event) => {
+//     const x = event.clientX;
+//     const y = event.clientY;
+//     console.log({ x, y });
+//     dot.fillStyle = "red";
+
+//     dot.fillRect(x, y, 10, 10);
+//   });
+// }
+// create();
+document.addEventListener("click", function (event) {
+  var x = event.clientX;
+  var y = event.clientY;
+
+  var ponto = document.createElement("div");
+  ponto.style.position = "absolute";
+  ponto.style.left = x + "px";
+  ponto.style.top = y + "px";
+  ponto.style.width = "10px";
+  ponto.style.height = "10px";
+  ponto.style.backgroundColor = "red";
+
+  var area = document.querySelector("#area01");
+  area.appendChild(ponto);
+});
+
+function area01(fn) {
   const related = document.querySelector(".related_1");
   const buttonName = document.querySelector("#area01").getAttribute("name");
   const zona = document.querySelector(".cliks");
@@ -36,7 +69,7 @@ function area01() {
 
   const display_time = document.querySelector(".timeDisplay").textContent;
   zona.textContent = numeroClick;
-  const timeWave = `onda ${numeroClick}-${display_time}`;
+  const timeWave = `onda ${numeroClick}(${display_time})`;
 
   contClickarea01.push(timeWave);
   const arrayLength = contClickarea01.length;
@@ -46,6 +79,7 @@ function area01() {
 
   related.textContent = `${buttonName} = ${arrayLength} ondas`; //insere na tela
 }
+
 function area02() {
   const related = document.querySelector(".related_2");
   const buttonName = document.querySelector("#area02").getAttribute("name");
